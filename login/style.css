@@ -1,3 +1,69 @@
+input {
+  height: 48px;
+}
+.logo {
+  margin-right: 20px;
+  height: 40px;
+}
+#button-cust {
+  color: #9b9b9b;
+  margin-top: 0px;
+  height: 48px;
+  width: 150px;
+  border: 1px solid #9b9b9b;
+  outline: none;
+}
+#button-cust-2 {
+  margin-top: 0px;
+  height: 48px;
+  width: 150px;
+  outline: none;
+}
+#button-cust-3 {
+  margin-top: 0px;
+  height: 48px;
+  width: 300px;
+  outline: none;
+}
+#button-save {
+  margin-top: 0px;
+  height: 48px;
+  width: 130px;
+  outline: none;
+}
+#button-seller {
+  margin-top: 0px;
+  height: 48px;
+  width: 150px;
+  outline: none;
+}
+#button-seller-2 {
+  margin-top: 0px;
+  height: 48px;
+  width: 150px;
+  outline: none;
+  border: 1px solid #9b9b9b;
+  color: #9b9b9b;
+}
+#text-all {
+  margin: 26px 0;
+  text-align: right;
+}
+#button-login {
+  border-radius: 40px;
+}
+#input-wrp {
+  width: 30%;
+  margin-top: 40px;
+}
+#input-margin {
+  margin-top: 14px;
+}
+#container-login {
+  width: 30%;
+  margin-top: 40px;
+}
+
 h4 {
   margin-bottom: 50px;
 }
