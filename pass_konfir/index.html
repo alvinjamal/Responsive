@@ -15,8 +15,8 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/login/style.css" />
-    <title>Login</title>
+    <link rel="stylesheet" href="/pass_konfir_login/style.css" />
+    <title>Konfirmasi Password</title>
   </head>
   <body>
     <div class="container column mt-5">
@@ -26,13 +26,14 @@
       </div>
     </div>
     <div class="d-flex justify-content-center mt-5">
-      <h4>Please login with your account</h4>
+      <h4>Please Login With Your Account</h4>
     </div>
-    <div class="d-flex mt-2 justify-content-center container">
-      <button class="btn">Customer</button>
-      <button class="btn1">Seller</button>
-    </div>
-
+    <p
+      class="text-danger d-flex justify-content-center"
+      style="margin-top: 20px"
+    >
+      Please Login With Your Account
+    </p>
     <div
       class="d-flex justify-content-center container flex-column input-wrap"
       style="margin-top: 40px"
@@ -48,12 +49,15 @@
       <input
         type="password"
         class="form-control"
-        placeholder="Password"
-        aria-label="password"
+        placeholder="Confirmation New Password"
+        aria-label="Confirmation New Password"
         aria-describedby="basic-addon1"
         style="height: 48px; margin-top: 14px"
       />
-      <a href="/pass_reset/index.html" class="text-right" style="margin: 26px 0"
+      <a
+        href="/pass_konfir_login/index.html"
+        class="text-right"
+        style="margin: 26px 0"
         >Forgot Password?</a
       >
     </div>
@@ -65,10 +69,6 @@
       <button class="btn3 btn-lg btn-round" style="border-radius: 40px">
         Login
       </button>
-      <p class="text-dark text-center" style="margin: 26px 0">
-        Don't have a Store.id account?
-        <a href="http://" class="text-btn"> Register </a>
-      </p>
     </div>
 
     <!-- Optional JavaScript -->
